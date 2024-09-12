@@ -1,0 +1,3 @@
+/home/patience/Document/VSCode/mango_job/build/CMakeFiles/rebuild_cache.dir
+/home/patience/Document/VSCode/mango_job/build/CMakeFiles/edit_cache.dir
+/home/patience/Document/VSCode/mango_job/build/CMakeFiles/mango_processing.dir

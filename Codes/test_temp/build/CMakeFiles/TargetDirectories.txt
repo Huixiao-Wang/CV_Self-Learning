@@ -1,0 +1,3 @@
+/home/patience/Document/VSCode/test_class/build/CMakeFiles/rebuild_cache.dir
+/home/patience/Document/VSCode/test_class/build/CMakeFiles/edit_cache.dir
+/home/patience/Document/VSCode/test_class/build/CMakeFiles/Class_test.dir
