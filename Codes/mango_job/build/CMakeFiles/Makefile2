@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patience/Document/VSCode/mango_job
+CMAKE_SOURCE_DIR = /home/patience/Document/VSCode/Repos/Codes/mango_job
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patience/Document/VSCode/mango_job/build
+CMAKE_BINARY_DIR = /home/patience/Document/VSCode/Repos/Codes/mango_job/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/mango_processing.dir/clean
 CMakeFiles/mango_processing.dir/all:
 	$(MAKE) -f CMakeFiles/mango_processing.dir/build.make CMakeFiles/mango_processing.dir/depend
 	$(MAKE) -f CMakeFiles/mango_processing.dir/build.make CMakeFiles/mango_processing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patience/Document/VSCode/mango_job/build/CMakeFiles --progress-num=1,2 "Built target mango_processing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patience/Document/VSCode/Repos/Codes/mango_job/build/CMakeFiles --progress-num=1,2 "Built target mango_processing"
 .PHONY : CMakeFiles/mango_processing.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mango_processing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patience/Document/VSCode/mango_job/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patience/Document/VSCode/Repos/Codes/mango_job/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mango_processing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patience/Document/VSCode/mango_job/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patience/Document/VSCode/Repos/Codes/mango_job/build/CMakeFiles 0
 .PHONY : CMakeFiles/mango_processing.dir/rule
 
 # Convenience name for target.

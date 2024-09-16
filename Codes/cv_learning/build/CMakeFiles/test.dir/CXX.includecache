@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/patience/Document/VSCode/Repos/Codes/mango_job/main.cpp
+/home/patience/Document/VSCode/Repos/Codes/cv_learning/main.cpp
+bits/stdc++.h
+-
 opencv2/opencv.hpp
--
-iostream
--
-random
 -
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp

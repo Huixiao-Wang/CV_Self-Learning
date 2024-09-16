@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/patience/Document/VSCode/mango_job/main.cpp" "/home/patience/Document/VSCode/mango_job/build/CMakeFiles/mango_processing.dir/main.cpp.o"
+  "/home/patience/Document/VSCode/Repos/Codes/mango_job/main.cpp" "/home/patience/Document/VSCode/Repos/Codes/mango_job/build/CMakeFiles/mango_processing.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
