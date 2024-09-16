@@ -4,3 +4,6 @@
 [submodule "Codes/XJTU-RMV-Task02"]
 	path = Codes/XJTU-RMV-Task02
 	url = https://github.com/Huixiao-Wang/XJTU-RMV-Task02.git
+[submodule "XJTU-RMV-Task01"]
+	path = XJTU-RMV-Task01
+	url = https://github.com/Huixiao-Wang/XJTU-RMV-Task01.git
