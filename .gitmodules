@@ -7,3 +7,6 @@
 [submodule "XJTU-RMV-Task01"]
 	path = XJTU-RMV-Task01
 	url = https://github.com/Huixiao-Wang/XJTU-RMV-Task01.git
+[submodule "XJTU-RMV-Task02"]
+	path = XJTU-RMV-Task02
+	url = git@github.com:Huixiao-Wang/XJTU-RMV-Task02.git
