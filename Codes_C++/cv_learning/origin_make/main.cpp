@@ -11,5 +11,5 @@ int main()
     return 0;
 }
 
-// g++ main.cpp -o test `pkg - config-- cflags-- libs opencv4`
+// g++ main.cpp -o test `pkg-config --cflags --libs opencv4`
 // ./test
