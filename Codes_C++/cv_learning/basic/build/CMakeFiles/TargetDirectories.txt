@@ -1,3 +1,3 @@
-/home/patience/Document/VSCode/Repos/Codes/cv_learning/build/CMakeFiles/rebuild_cache.dir
-/home/patience/Document/VSCode/Repos/Codes/cv_learning/build/CMakeFiles/edit_cache.dir
-/home/patience/Document/VSCode/Repos/Codes/cv_learning/build/CMakeFiles/test.dir
+/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build/CMakeFiles/rebuild_cache.dir
+/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build/CMakeFiles/edit_cache.dir
+/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build/CMakeFiles/test.dir

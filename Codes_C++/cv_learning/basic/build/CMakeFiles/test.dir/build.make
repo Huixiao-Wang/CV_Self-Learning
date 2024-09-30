@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patience/Document/VSCode/Repos/Codes/cv_learning
+CMAKE_SOURCE_DIR = /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patience/Document/VSCode/Repos/Codes/cv_learning/build
+CMAKE_BINARY_DIR = /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/test.dir/flags.make
 
 CMakeFiles/test.dir/main.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patience/Document/VSCode/Repos/Codes/cv_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/main.cpp.o -c /home/patience/Document/VSCode/Repos/Codes/cv_learning/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/main.cpp.o -c /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/main.cpp
 
 CMakeFiles/test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patience/Document/VSCode/Repos/Codes/cv_learning/main.cpp > CMakeFiles/test.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/main.cpp > CMakeFiles/test.dir/main.cpp.i
 
 CMakeFiles/test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patience/Document/VSCode/Repos/Codes/cv_learning/main.cpp -o CMakeFiles/test.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/main.cpp -o CMakeFiles/test.dir/main.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
@@ -79,22 +79,61 @@ test_EXTERNAL_OBJECTS =
 
 test: CMakeFiles/test.dir/main.cpp.o
 test: CMakeFiles/test.dir/build.make
-test: /usr/local/lib/libopencv_highgui.so.4.6.0
-test: /usr/local/lib/libopencv_ml.so.4.6.0
-test: /usr/local/lib/libopencv_objdetect.so.4.6.0
-test: /usr/local/lib/libopencv_photo.so.4.6.0
-test: /usr/local/lib/libopencv_stitching.so.4.6.0
-test: /usr/local/lib/libopencv_video.so.4.6.0
-test: /usr/local/lib/libopencv_videoio.so.4.6.0
-test: /usr/local/lib/libopencv_imgcodecs.so.4.6.0
-test: /usr/local/lib/libopencv_calib3d.so.4.6.0
-test: /usr/local/lib/libopencv_dnn.so.4.6.0
-test: /usr/local/lib/libopencv_features2d.so.4.6.0
-test: /usr/local/lib/libopencv_flann.so.4.6.0
-test: /usr/local/lib/libopencv_imgproc.so.4.6.0
-test: /usr/local/lib/libopencv_core.so.4.6.0
+test: /usr/local/lib/libopencv_gapi.so.4.10.0
+test: /usr/local/lib/libopencv_stitching.so.4.10.0
+test: /usr/local/lib/libopencv_aruco.so.4.10.0
+test: /usr/local/lib/libopencv_bgsegm.so.4.10.0
+test: /usr/local/lib/libopencv_bioinspired.so.4.10.0
+test: /usr/local/lib/libopencv_ccalib.so.4.10.0
+test: /usr/local/lib/libopencv_dnn_objdetect.so.4.10.0
+test: /usr/local/lib/libopencv_dnn_superres.so.4.10.0
+test: /usr/local/lib/libopencv_dpm.so.4.10.0
+test: /usr/local/lib/libopencv_face.so.4.10.0
+test: /usr/local/lib/libopencv_freetype.so.4.10.0
+test: /usr/local/lib/libopencv_fuzzy.so.4.10.0
+test: /usr/local/lib/libopencv_hfs.so.4.10.0
+test: /usr/local/lib/libopencv_img_hash.so.4.10.0
+test: /usr/local/lib/libopencv_intensity_transform.so.4.10.0
+test: /usr/local/lib/libopencv_line_descriptor.so.4.10.0
+test: /usr/local/lib/libopencv_mcc.so.4.10.0
+test: /usr/local/lib/libopencv_quality.so.4.10.0
+test: /usr/local/lib/libopencv_rapid.so.4.10.0
+test: /usr/local/lib/libopencv_reg.so.4.10.0
+test: /usr/local/lib/libopencv_rgbd.so.4.10.0
+test: /usr/local/lib/libopencv_saliency.so.4.10.0
+test: /usr/local/lib/libopencv_signal.so.4.10.0
+test: /usr/local/lib/libopencv_stereo.so.4.10.0
+test: /usr/local/lib/libopencv_structured_light.so.4.10.0
+test: /usr/local/lib/libopencv_superres.so.4.10.0
+test: /usr/local/lib/libopencv_surface_matching.so.4.10.0
+test: /usr/local/lib/libopencv_tracking.so.4.10.0
+test: /usr/local/lib/libopencv_videostab.so.4.10.0
+test: /usr/local/lib/libopencv_wechat_qrcode.so.4.10.0
+test: /usr/local/lib/libopencv_xfeatures2d.so.4.10.0
+test: /usr/local/lib/libopencv_xobjdetect.so.4.10.0
+test: /usr/local/lib/libopencv_xphoto.so.4.10.0
+test: /usr/local/lib/libopencv_shape.so.4.10.0
+test: /usr/local/lib/libopencv_highgui.so.4.10.0
+test: /usr/local/lib/libopencv_datasets.so.4.10.0
+test: /usr/local/lib/libopencv_plot.so.4.10.0
+test: /usr/local/lib/libopencv_text.so.4.10.0
+test: /usr/local/lib/libopencv_ml.so.4.10.0
+test: /usr/local/lib/libopencv_phase_unwrapping.so.4.10.0
+test: /usr/local/lib/libopencv_optflow.so.4.10.0
+test: /usr/local/lib/libopencv_ximgproc.so.4.10.0
+test: /usr/local/lib/libopencv_video.so.4.10.0
+test: /usr/local/lib/libopencv_videoio.so.4.10.0
+test: /usr/local/lib/libopencv_imgcodecs.so.4.10.0
+test: /usr/local/lib/libopencv_objdetect.so.4.10.0
+test: /usr/local/lib/libopencv_calib3d.so.4.10.0
+test: /usr/local/lib/libopencv_dnn.so.4.10.0
+test: /usr/local/lib/libopencv_features2d.so.4.10.0
+test: /usr/local/lib/libopencv_flann.so.4.10.0
+test: /usr/local/lib/libopencv_photo.so.4.10.0
+test: /usr/local/lib/libopencv_imgproc.so.4.10.0
+test: /usr/local/lib/libopencv_core.so.4.10.0
 test: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patience/Document/VSCode/Repos/Codes/cv_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -107,6 +146,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	cd /home/patience/Document/VSCode/Repos/Codes/cv_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patience/Document/VSCode/Repos/Codes/cv_learning /home/patience/Document/VSCode/Repos/Codes/cv_learning /home/patience/Document/VSCode/Repos/Codes/cv_learning/build /home/patience/Document/VSCode/Repos/Codes/cv_learning/build /home/patience/Document/VSCode/Repos/Codes/cv_learning/build/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test.dir/depend
 

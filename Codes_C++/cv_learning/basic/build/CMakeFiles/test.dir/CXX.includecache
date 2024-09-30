@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/patience/Document/VSCode/Repos/Codes/cv_learning/main.cpp
+/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/main.cpp
 bits/stdc++.h
 -
 opencv2/opencv.hpp
@@ -21,6 +21,8 @@ opencv2/features2d.hpp
 /usr/local/include/opencv4/opencv2/opencv2/features2d.hpp
 opencv2/core/affine.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core/affine.hpp
+opencv2/core/utils/logger.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core/utils/logger.hpp
 
 /usr/local/include/opencv4/opencv2/core.hpp
 opencv2/core/cvdef.h
@@ -99,6 +101,10 @@ opencv2/core/cuda.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/cuda.hpp
 
 /usr/local/include/opencv4/opencv2/core/cuda_types.hpp
+opencv2/core/cvdef.h
+/usr/local/include/opencv4/opencv2/core/opencv2/core/cvdef.h
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/core/opencv2/core.hpp
 
 /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
 cv_cpu_config.h
@@ -125,6 +131,8 @@ arm_neon.h
 -
 immintrin.h
 -
+arm_neon.h
+-
 immintrin.h
 -
 immintrin.h
@@ -135,17 +143,17 @@ arm_neon.h
 -
 arm_neon.h
 -
-riscv-vector.h
--
-arm_neon.h
+riscv_vector.h
 -
 altivec.h
 -
 hal/msa_macros.h
 /usr/local/include/opencv4/opencv2/core/hal/msa_macros.h
-wasm_simd128.h
+lsxintrin.h
 -
-riscv_vector.h
+lasxintrin.h
+-
+wasm_simd128.h
 -
 emmintrin.h
 -
@@ -177,11 +185,7 @@ cv_cpu_dispatch.h
 /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h
 intrin.h
 -
-array
--
 cstdint
--
-stdint.h
 -
 stdint.h
 -
@@ -267,6 +271,8 @@ opencv2/core/types.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/types.hpp
 opencv2/core/bufferpool.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/bufferpool.hpp
+array
+-
 type_traits
 -
 opencv2/core/mat.inl.hpp
@@ -285,6 +291,12 @@ opencv2/core/saturate.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/saturate.hpp
 initializer_list
 -
+opencv2/core/matx.inl.hpp
+/usr/local/include/opencv4/opencv2/core/opencv2/core/matx.inl.hpp
+
+/usr/local/include/opencv4/opencv2/core/matx.inl.hpp
+opencv2/core/matx.hpp
+/usr/local/include/opencv4/opencv2/core/opencv2/core/matx.hpp
 
 /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
 opencv2/core/cvdef.h
@@ -315,6 +327,8 @@ time.h
 /usr/local/include/opencv4/opencv2/core/saturate.hpp
 opencv2/core/cvdef.h
 /usr/local/include/opencv4/opencv2/core/opencv2/core/cvdef.h
+climits
+-
 opencv2/core/fast_math.hpp
 /usr/local/include/opencv4/opencv2/core/opencv2/core/fast_math.hpp
 
@@ -355,6 +369,26 @@ opencv2/core/utility.hpp
 -
 opencv2/core/utils/tls.hpp
 -
+
+/usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp
+
+/usr/local/include/opencv4/opencv2/core/utils/logger.hpp
+iostream
+-
+sstream
+-
+limits.h
+-
+logger.defines.hpp
+/usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp
+logtag.hpp
+/usr/local/include/opencv4/opencv2/core/utils/logtag.hpp
+
+/usr/local/include/opencv4/opencv2/core/utils/logtag.hpp
+opencv2/core/cvstd.hpp
+/usr/local/include/opencv4/opencv2/core/utils/opencv2/core/cvstd.hpp
+logger.defines.hpp
+/usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp
 
 /usr/local/include/opencv4/opencv2/core/utils/tls.hpp
 
@@ -465,6 +499,10 @@ ostream
 -
 typeinfo
 -
+opencv2/core/cvdef.h
+/usr/local/include/opencv4/opencv2/flann/opencv2/core/cvdef.h
+opencv2/core/utility.hpp
+/usr/local/include/opencv4/opencv2/flann/opencv2/core/utility.hpp
 
 /usr/local/include/opencv4/opencv2/flann/autotuned_index.h
 sstream
@@ -545,6 +583,8 @@ all_indices.h
 /usr/local/include/opencv4/opencv2/flann/all_indices.h
 
 /usr/local/include/opencv4/opencv2/flann/general.h
+opencv2/core/version.hpp
+/usr/local/include/opencv4/opencv2/flann/opencv2/core/version.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/flann/opencv2/core.hpp
 
@@ -745,6 +785,10 @@ matrix.h
 /usr/local/include/opencv4/opencv2/flann/matrix.h
 stdio.h
 -
+opencv2/core/cvdef.h
+/usr/local/include/opencv4/opencv2/flann/opencv2/core/cvdef.h
+opencv2/flann/defines.h
+/usr/local/include/opencv4/opencv2/flann/opencv2/flann/defines.h
 
 /usr/local/include/opencv4/opencv2/flann/miniflann.hpp
 opencv2/core.hpp
@@ -791,6 +835,10 @@ set
 -
 vector
 -
+opencv2/core/base.hpp
+/usr/local/include/opencv4/opencv2/flann/opencv2/core/base.hpp
+opencv2/core/cvdef.h
+/usr/local/include/opencv4/opencv2/flann/opencv2/core/cvdef.h
 
 /usr/local/include/opencv4/opencv2/flann/sampling.h
 matrix.h
@@ -855,10 +903,42 @@ opencv2/ml/ml.inl.hpp
 /usr/local/include/opencv4/opencv2/objdetect.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
+opencv2/objdetect/aruco_detector.hpp
+/usr/local/include/opencv4/opencv2/opencv2/objdetect/aruco_detector.hpp
+opencv2/objdetect/graphical_code_detector.hpp
+/usr/local/include/opencv4/opencv2/opencv2/objdetect/graphical_code_detector.hpp
 opencv2/objdetect/detection_based_tracker.hpp
 /usr/local/include/opencv4/opencv2/opencv2/objdetect/detection_based_tracker.hpp
 opencv2/objdetect/face.hpp
 /usr/local/include/opencv4/opencv2/opencv2/objdetect/face.hpp
+opencv2/objdetect/charuco_detector.hpp
+/usr/local/include/opencv4/opencv2/opencv2/objdetect/charuco_detector.hpp
+opencv2/objdetect/barcode.hpp
+/usr/local/include/opencv4/opencv2/opencv2/objdetect/barcode.hpp
+
+/usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp
+opencv2/core.hpp
+-
+
+/usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp
+opencv2/objdetect/aruco_dictionary.hpp
+-
+opencv2/objdetect/aruco_board.hpp
+-
+
+/usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp
+opencv2/core.hpp
+-
+
+/usr/local/include/opencv4/opencv2/objdetect/barcode.hpp
+opencv2/core.hpp
+-
+opencv2/objdetect/graphical_code_detector.hpp
+-
+
+/usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp
+opencv2/objdetect/aruco_detector.hpp
+/usr/local/include/opencv4/opencv2/objdetect/opencv2/objdetect/aruco_detector.hpp
 
 /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
 opencv2/core.hpp
@@ -867,6 +947,10 @@ vector
 -
 
 /usr/local/include/opencv4/opencv2/objdetect/face.hpp
+opencv2/core.hpp
+-
+
+/usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp
 opencv2/core.hpp
 -
 

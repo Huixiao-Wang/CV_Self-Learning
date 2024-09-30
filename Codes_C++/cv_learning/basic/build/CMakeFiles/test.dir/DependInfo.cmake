@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/patience/Document/VSCode/Repos/Codes/cv_learning/main.cpp" "/home/patience/Document/VSCode/Repos/Codes/cv_learning/build/CMakeFiles/test.dir/main.cpp.o"
+  "/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/main.cpp" "/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/basic/build/CMakeFiles/test.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

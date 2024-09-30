@@ -24,6 +24,7 @@ CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/hal/msa_
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/mat.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/mat.inl.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/matx.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/matx.inl.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/neon_utils.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/operations.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/optim.hpp
@@ -34,6 +35,9 @@ CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/traits.h
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/types.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utility.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/instrumentation.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/logger.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/logtag.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utils/tls.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/version.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
@@ -84,8 +88,14 @@ CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/segme
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/ml.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/aruco_board.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/aruco_detector.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/barcode.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/charuco_detector.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/face.hpp
+CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/opencv.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/test.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/photo.hpp
