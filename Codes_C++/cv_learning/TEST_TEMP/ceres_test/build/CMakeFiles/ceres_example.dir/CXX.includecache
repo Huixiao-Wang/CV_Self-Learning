@@ -8,7 +8,13 @@
 
 /home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/TEST_TEMP/ceres_test/ceres_example.cpp
 ceres/ceres.h
-/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/TEST_TEMP/ceres_test/ceres/ceres.h
-glog/logging.h
-/home/patience/Documents/VSCode/Repos/Codes_C++/cv_learning/TEST_TEMP/ceres_test/glog/logging.h
+-
+iostream
+-
+vector
+-
+utility
+-
+random
+-
 

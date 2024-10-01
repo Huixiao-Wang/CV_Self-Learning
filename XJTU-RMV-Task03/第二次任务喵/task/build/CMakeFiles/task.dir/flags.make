@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =   -std=gnu++11
 
-CXX_DEFINES = 
+CXX_DEFINES = -DGFLAGS_IS_A_DLL=0
 
-CXX_INCLUDES = -I/home/patience/Documents/VSCode/Repos/XJTU-RMV-Task03/第二次任务喵/task/include -isystem /usr/local/include/opencv4 
+CXX_INCLUDES = -I/home/patience/Documents/VSCode/Repos/XJTU-RMV-Task03/第二次任务喵/task/include -I/usr/include/eigen3 -isystem /usr/local/include/opencv4 
 

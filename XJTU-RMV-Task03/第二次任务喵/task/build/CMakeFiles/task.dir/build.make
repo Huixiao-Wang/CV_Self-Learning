@@ -127,6 +127,7 @@ task: /usr/local/lib/libopencv_wechat_qrcode.so.4.10.0
 task: /usr/local/lib/libopencv_xfeatures2d.so.4.10.0
 task: /usr/local/lib/libopencv_xobjdetect.so.4.10.0
 task: /usr/local/lib/libopencv_xphoto.so.4.10.0
+task: /usr/local/lib/libceres.a
 task: /usr/local/lib/libopencv_shape.so.4.10.0
 task: /usr/local/lib/libopencv_highgui.so.4.10.0
 task: /usr/local/lib/libopencv_datasets.so.4.10.0
@@ -147,6 +148,35 @@ task: /usr/local/lib/libopencv_flann.so.4.10.0
 task: /usr/local/lib/libopencv_photo.so.4.10.0
 task: /usr/local/lib/libopencv_imgproc.so.4.10.0
 task: /usr/local/lib/libopencv_core.so.4.10.0
+task: /usr/lib/x86_64-linux-gnu/libglog.so
+task: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
+task: /usr/lib/x86_64-linux-gnu/libspqr.so
+task: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+task: /usr/lib/x86_64-linux-gnu/libtbb.so
+task: /usr/lib/x86_64-linux-gnu/libcholmod.so
+task: /usr/lib/x86_64-linux-gnu/libccolamd.so
+task: /usr/lib/x86_64-linux-gnu/libcamd.so
+task: /usr/lib/x86_64-linux-gnu/libcolamd.so
+task: /usr/lib/x86_64-linux-gnu/libamd.so
+task: /usr/lib/x86_64-linux-gnu/liblapack.so
+task: /usr/lib/x86_64-linux-gnu/libf77blas.so
+task: /usr/lib/x86_64-linux-gnu/libatlas.so
+task: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+task: /usr/lib/x86_64-linux-gnu/librt.so
+task: /usr/lib/x86_64-linux-gnu/libcxsparse.so
+task: /usr/lib/x86_64-linux-gnu/libtbbmalloc.so
+task: /usr/lib/x86_64-linux-gnu/libtbb.so
+task: /usr/lib/x86_64-linux-gnu/libcholmod.so
+task: /usr/lib/x86_64-linux-gnu/libccolamd.so
+task: /usr/lib/x86_64-linux-gnu/libcamd.so
+task: /usr/lib/x86_64-linux-gnu/libcolamd.so
+task: /usr/lib/x86_64-linux-gnu/libamd.so
+task: /usr/lib/x86_64-linux-gnu/liblapack.so
+task: /usr/lib/x86_64-linux-gnu/libf77blas.so
+task: /usr/lib/x86_64-linux-gnu/libatlas.so
+task: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+task: /usr/lib/x86_64-linux-gnu/librt.so
+task: /usr/lib/x86_64-linux-gnu/libcxsparse.so
 task: CMakeFiles/task.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patience/Documents/VSCode/Repos/XJTU-RMV-Task03/第二次任务喵/task/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable task"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task.dir/link.txt --verbose=$(VERBOSE)
