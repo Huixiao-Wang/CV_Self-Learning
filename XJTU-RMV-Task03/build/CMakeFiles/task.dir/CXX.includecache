@@ -26,14 +26,6 @@ ceres/ceres.h
 glog/logging.h
 /home/patience/Documents/VSCode/Repos/XJTU-RMV-Task03/glog/logging.h
 
-/home/patience/Documents/VSCode/Repos/XJTU-RMV-Task03/src/windmill.cpp
-windmill.hpp
-/home/patience/Documents/VSCode/Repos/XJTU-RMV-Task03/src/windmill.hpp
-stdlib.h
--
-time.h
--
-
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
